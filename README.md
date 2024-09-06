@@ -1,6 +1,6 @@
-========================================
+
  Automated TOR Connection Script 
-========================================
+
 
 This script automates the process of establishing a connection over TOR.
 It saves you time by avoiding manual installation of components.
