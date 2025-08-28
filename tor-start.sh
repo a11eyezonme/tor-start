@@ -143,7 +143,7 @@ GRP=$(journalctl -ext Tor | grep 'Bootstrapped' | awk '{print $7}' | tail -1)
 while [[ $GRP != '100%' ]]
 do
     sleep 15
-    echo -e "Bootstrapped status: \033[0;31m$GRP\033[0m"
+    echo -e "Bootstrap status: \033[0;31m$GRP\033[0m"
     GRP=$(journalctl -ext Tor | grep 'Bootstrapped' | awk '{print $7}' | tail -1)   
 done
 
